@@ -5,7 +5,7 @@
 ## calculates the inverse of the matrix.
 ## If the matrix inverse has already been calculated, it will instead
 ## find it in the cache and return it, and not calculate it again.
-
+ 
 makeCacheMatrix <- function(x = matrix()) {
   s <- NULL
   set <- function(y) {
